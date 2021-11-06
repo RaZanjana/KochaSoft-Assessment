@@ -1,0 +1,89 @@
+body {
+    font-family: 'Segoe UI';
+}
+
+
+/* Navbar Style */
+
+.navbar {
+    padding: 0;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-collapse {
+    padding: 0 5rem;
+}
+
+.navbar-dark {
+    background-color: #0B1C29 !important;
+}
+
+.nav-link {
+    color: #D1D1D1 !important;
+    font-size: 1rem;
+    margin: 0 1rem;
+    width: 100%;
+    text-align: center !important;
+}
+
+.nav-link .fa-bell {
+    transform: rotate(20deg);
+}
+
+.nav-user {
+    background-color: #142F43;
+    padding: 2rem;
+}
+
+.nav-user i {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.navbar-toggler {
+    margin: 1rem;
+}
+
+
+/* First Screen Style */
+
+.section-1 {
+    background-image: url(../assets/img1.png);
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec1-text {
+    width: 60%;
+    padding: 3rem 2rem 3rem 5rem;
+    background: rgba(255, 255, 255, .79) 0% 0% no-repeat padding-box;
+    color: #000000;
+}
+
+.sec1-text h1 {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.sec1-text .btn {
+    height: 4rem;
+    background-color: #142F43;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+
+.btn {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 0;
+}
+
+.btn i {
+    margin-left: 4rem;
+}
