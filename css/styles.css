@@ -18,7 +18,7 @@ body {
 }
 
 .navbar-dark {
-    background-color: #0B1C29 !important;
+    background: #0B1C29 !important;
 }
 
 .nav-link {
@@ -31,6 +31,10 @@ body {
 
 .nav-link .fa-bell {
     transform: rotate(20deg);
+}
+
+.nav-link i {
+    font-size: 1.5rem;
 }
 
 .nav-user {
@@ -78,12 +82,68 @@ body {
     margin-top: 1rem;
 }
 
-.btn {
+.section-1 .btn {
     padding-left: 3rem;
     padding-right: 3rem;
     border-radius: 0;
 }
 
-.btn i {
+.section-1 .btn i {
     margin-left: 4rem;
+}
+
+
+/* Courses Screen style */
+
+.section-2 {
+    background-color: #0B1C29;
+    padding: 4.5rem;
+}
+
+.section-2 .input-group {
+    background-color: #16222D;
+    border: 1px solid #CBCBCB;
+    height: 4rem;
+}
+
+.section-2 .input-group-text {
+    transform: rotateY(180deg);
+    margin-left: 2rem;
+}
+
+.section-2 .input-group-text,
+.section-2 .form-control {
+    background-color: transparent;
+    border: none;
+    color: #CBCBCB;
+    font-size: 1.2rem;
+}
+
+.section-2 .form-control:focus {
+    box-shadow: none !important;
+}
+
+.section-2 ::placeholder {
+    color: #CBCBCB;
+    opacity: 1;
+}
+
+.section-2 .title {
+    margin-top: 4rem;
+    color: #ffffff;
+    font-size: 3.5rem;
+}
+
+.section-2 .card {
+    background-color: transparent;
+    box-shadow: 1px 7px 9px #0000005E;
+    border: 1px solid #C1C1C1;
+    height: 22rem;
+}
+
+.section-2 .card .card-body {
+    color: #EBEBEB;
+    font-size: 3rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
